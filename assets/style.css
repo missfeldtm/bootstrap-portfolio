@@ -42,9 +42,35 @@ nav {
   margin-left: 5%;
 }
 
+
+
 .navbar-light .navbar-brand {
     color: #fff;
     
+}
+
+.navbar-light .navbar-brand:hover {
+  background:#fff;
+  color:#4aaaa5;
+  border-bottom: 0.8px solid #ccc;
+  height: 4rem;
+  padding: 1rem;
+  margin-left: 5%;
+  
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-brand {
+   position: relative;
+   bottom:.5rem;
+  }
+}
+
+.show{
+ position: relative;
+ z-index: 50;
+  background:#fff;
+ 
 }
 
 
@@ -64,8 +90,9 @@ nav {
 }
 
 nav a:hover {
-  background: #4aaaa5;
-  color: #fff;
+ 
+  color: #4aaaa5;
+  font-weight: bold;
   height: 100%;
   padding: 1rem;
 
@@ -77,6 +104,10 @@ nav a:hover {
     background:#fff;
     margin:20px auto;
     border: 0.8px solid #ccc;
+}
+
+.portfolio{
+  padding:1rem;
 }
 
 hr {
